@@ -69,12 +69,14 @@ void ControllerDriver::Deactivate()
 
 void* ControllerDriver::GetComponent(const char* pchComponentNameAndVersion)
 {
+	//I found that if this method just returns null always, it works fine. But I'm leaving the if statement in since it doesn't 
+	//hurt.
 	//Check out the IVRDriverInput_Version declaration in openvr_driver.h. You can search that file for other _Version declarations 
 	//to see other components that are available. You could also put a log in this class and output the value passed into this 
 	//method to see what OpenVR is looking for.
 	if (strcmp(IVRDriverInput_Version, pchComponentNameAndVersion) == 0)
 	{
-		return (IVRDriverInput*)this;
+		return this;
 	}
 	return NULL;
 }
