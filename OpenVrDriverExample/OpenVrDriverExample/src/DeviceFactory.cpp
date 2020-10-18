@@ -16,10 +16,6 @@ void* HmdDriverFactory(const char* interfaceName, int* returnCode)
 	{
 		return &deviceProvider;
 	}
-	else if (std::strcmp(ITrackedDeviceServerDriver_Version, interfaceName) == 0)
-	{
-		return &deviceProvider;
-	}
 
 	if (returnCode)
 	{
