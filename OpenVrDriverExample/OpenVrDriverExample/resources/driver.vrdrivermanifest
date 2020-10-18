@@ -1,0 +1,8 @@
+{
+	"alwaysActivate": false,
+	"name" : "example",
+	"directory" : "",
+	"resourceOnly" : false,
+
+	"hmd_presence" : []
+}
