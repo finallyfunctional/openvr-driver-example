@@ -3,6 +3,6 @@
 	"name" : "example",
 	"directory" : "",
 	"resourceOnly" : false,
-
+	"prefersUpperDeviceIndices" :  true,
 	"hmd_presence" : []
 }
