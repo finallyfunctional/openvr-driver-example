@@ -1,5 +1,5 @@
 {
-	"alwaysActivate": false,
+	"alwaysActivate": true,
 	"name" : "example",
 	"directory" : "",
 	"resourceOnly" : false,
