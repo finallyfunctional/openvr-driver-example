@@ -1,6 +1,6 @@
-#include <windows.h>
-#include <openvr_driver.h>
 #include <DeviceProvider.h>
+#include <openvr_driver.h>
+#include <windows.h>
 
 #define HMD_DLL_EXPORT extern "C" __declspec( dllexport )
 

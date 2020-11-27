@@ -1,7 +1,7 @@
 #pragma once
+#include <ControllerDriver.h>
 #include <openvr_driver.h>
 #include <windows.h>
-#include <ControllerDriver.h>
 
 using namespace vr;
 
